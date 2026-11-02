@@ -192,7 +192,7 @@ if submitted:
 st.divider()
 st.header("Real Estate Market Insights")
 
-data_path = BASE_DIR / "cleaned_housing_data.csv"
+data_path = BASE_DIR / "cleaned_housing_sample.csv"
 
 if data_path.exists():
     try:
